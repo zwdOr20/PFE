@@ -1,0 +1,19 @@
+Contexte du projet :
+
+- L'equipe RDWS développe et maintient des services utilisé par les équipes du département
+Recherche & Développement du groupe Société Générale. Ces services là sont regroupé est déployer dans
+le cloud Microsoft Azure sous la platforme Microsoft Service Fabric.
+- Afin de comprendre le contexte il est jugé nécessaire de présenter le processus d’intégration
+continue.
+- Azure Service Fabric est une offre PaaS (Platform as a Service) conçue pour faciliter
+ le développement, le déploiement et l'administration d'applications fortement personnalisables 
+ et évolutives destinées à la plateforme Cloud Microsoft Azure.
+- Comparaison entre Cloud services et service fabric : https://docs.microsoft.com/fr-fr/azure/service-fabric/service-fabric-cloud-services-migration-differences
+État de l’existant : 
+- Pour assuré la fiabilité et la haute performance des services exposés sur le cloud, l'équipe RDWS a developpé un service de scaling qui assure qui 
+s'occupe de la tache de scaling.
+- Le service scaling prend en Input une configuration qui contient des informations liées aux deployements des services , en se basant sur cette configuration
+ et l'État des workers le service scaling  s'execute périodiquement en temps réel pour faire des actions de Scale UP or Down selon le besoin.
+
+
+
