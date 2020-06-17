@@ -1,0 +1,10 @@
+    
+    {
+        "min_worker_count" : 10,
+        "max_workers_count" : 100,
+        "min_ide_workers_percent" : 30,
+        "pas_scaleDown":1,
+        "days_Of_Week" : [0,1,2,3,4],
+        "utc_start_Time" :"08:00:00",
+        "utc_end_time" : "19:00:00"
+    }
