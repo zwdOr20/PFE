@@ -1,0 +1,6 @@
+Performance Metrics,Values,,,
+Max Queue time (s),27.27s,,,
+Average Queue time (s),0.25s,,,
+Requests With No WaitingTime %,95.73%,,,
+Total Time no worker available,0j:0H:5m:42s,,,
+Workers availability %,98.10%,,,

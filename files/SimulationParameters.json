@@ -1,0 +1,12 @@
+{
+  "configurationFilePath": "C:\\Users\\tdouiyeh020117\\Desktop\\simulation\\configuration_holder_ok.json",
+  "RequestsFilePath": "C:\\ARD\\ScalingProjectSolution\\ScalingSimulatorProject\\csvFile.csv",
+  "UtcSimulationStartTime": "10/06/2020 11:30:00",
+  "UtcSimulationEndTime": "10/06/2020 15:35:00",
+  "WorkersResultFilePath": "C:\\Users\\tdouiyeh020117\\Desktop\\simulation\\outputs",
+  "RequestsResultFilePath": "C:\\Users\\tdouiyeh020117\\Desktop\\simulation\\outputs",
+  "MetricsResultsFilePath": "C:\\Users\\tdouiyeh020117\\Desktop\\simulation\\outputs",
+  "ScalingUpPeriod": 20,
+  "ScalingDownPeriod": 120,
+  "WorkerSetUpTime": 30
+}

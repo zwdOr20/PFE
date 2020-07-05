@@ -1,0 +1,38 @@
+[
+  {
+    "minIdleWorkersPercent": 1,
+    "maxWorkersInstancesCount": 300,
+    "minWorkersInstancesCount": 1,
+    "decreaseStep": 20,
+    "daysOfWeek": [1, 2, 3, 4, 5],
+    "utcStartTime": "05:00:00",
+    "utcEndTime": "18:00:00"
+  },
+  {
+    "minIdleWorkersPercent": 33,
+    "maxWorkersInstancesCount": 20,
+    "minWorkersInstancesCount": 1,
+    "decreaseStep": 20,
+    "daysOfWeek": [6],
+    "utcStartTime": "02:00:00",
+    "utcEndTime": null
+  },
+  {
+    "minIdleWorkersPercent": 33,
+    "maxWorkersInstancesCount": 20,
+    "minWorkersInstancesCount": 1,
+    "decreaseStep": 20,
+    "daysOfWeek": [0],
+    "utcStartTime": null,
+    "utcEndTime": "20:00:00"
+  },
+  {
+    "decreaseStep": 1,
+    "maxWorkersInstancesCount": 3,
+    "minIdleWorkersPercent": 30,
+    "minWorkersInstancesCount": 1,
+    "daysOfWeek": null,
+    "utcEndTime": null,
+    "utcStartTime": null
+  }
+]
