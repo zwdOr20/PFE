@@ -1,9 +1,9 @@
 [
   {
-    "minIdleWorkersPercent": 1,
-    "maxWorkersInstancesCount": 300,
-    "minWorkersInstancesCount": 1,
-    "decreaseStep": 20,
+    "minIdleWorkersPercent": 30,
+    "maxWorkersInstancesCount": 100,
+    "minWorkersInstancesCount": 10,
+    "decreaseStep": 5,
     "daysOfWeek": [1, 2, 3, 4, 5],
     "utcStartTime": "05:00:00",
     "utcEndTime": "18:00:00"
@@ -36,3 +36,5 @@
     "utcStartTime": null
   }
 ]
+
+
